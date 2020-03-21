@@ -63,6 +63,7 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:gravity="center"
+                android:onClick="btn_AC"
                 android:text="AC"
                 android:textColor="@color/white"
                 android:textSize="10pt" />
@@ -79,7 +80,7 @@
                 android:textSize="10pt" />
 
             <TextView
-                android:id="@+id/X"
+                android:id="@+id/Mul"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -90,7 +91,7 @@
                 android:textSize="10pt" />
 
             <TextView
-                android:id="@+id/-"
+                android:id="@+id/Sub"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -110,7 +111,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/7"
+                android:id="@+id/Seven"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -131,7 +132,7 @@
                 android:textSize="10pt" />
 
             <TextView
-                android:id="@+id/9"
+                android:id="@+id/Nine"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -142,7 +143,7 @@
                 android:textSize="10pt" />
 
             <TextView
-                android:id="@+id/+"
+                android:id="@+id/plus"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -171,7 +172,7 @@
                 android:textSize="10pt" />
 
             <TextView
-                android:id="@+id/5"
+                android:id="@+id/five"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -192,7 +193,7 @@
                 android:textSize="10pt" />
 
             <TextView
-                android:id="@+id/%"
+                android:id="@+id/percentage"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -211,7 +212,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/1"
+                android:id="@+id/one"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -232,7 +233,7 @@
                 android:textSize="10pt" />
 
             <TextView
-                android:id="@+id/3"
+                android:id="@+id/three"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -263,7 +264,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/00"
+                android:id="@+id/DoubleZero"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -274,7 +275,7 @@
                 android:textSize="10pt" />
 
             <TextView
-                android:id="@+id/0"
+                android:id="@+id/Zero"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -285,7 +286,7 @@
                 android:textSize="10pt" />
 
             <TextView
-                android:id="@+id/."
+                android:id="@+id/Dot"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -296,7 +297,7 @@
                 android:textSize="10pt" />
 
             <TextView
-                android:id="@+id/="
+                android:id="@+id/EqualTo"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
