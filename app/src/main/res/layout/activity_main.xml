@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="right"
-        android:text="5,760,000"
+        android:text="@string/_5_760_000"
         android:textColor="@color/white"
         android:textSize="18pt"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,7 +57,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/ac"
+                android:id="@+id/Ac"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -128,6 +128,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="8"
+                android:id="@+id/Eight"
                 android:textColor="@color/white"
                 android:textSize="10pt" />
 
@@ -143,13 +144,13 @@
                 android:textSize="10pt" />
 
             <TextView
-                android:id="@+id/plus"
+                android:id="@+id/Plus"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="+"
+                android:text="@string/plus"
                 android:textColor="@color/white"
                 android:textSize="10pt" />
 
@@ -168,11 +169,12 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="4"
+                android:id="@+id/Four"
                 android:textColor="@color/white"
                 android:textSize="10pt" />
 
             <TextView
-                android:id="@+id/five"
+                android:id="@+id/Five"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -189,6 +191,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="6"
+                android:id="@+id/Six"
                 android:textColor="@color/white"
                 android:textSize="10pt" />
 
@@ -212,7 +215,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/one"
+                android:id="@+id/One"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -229,11 +232,12 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="2"
+                android:id="@+id/Two"
                 android:textColor="@color/white"
                 android:textSize="10pt" />
 
             <TextView
-                android:id="@+id/three"
+                android:id="@+id/Three"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -244,7 +248,7 @@
                 android:textSize="10pt" />
 
             <TextView
-                android:id="@+id/del"
+                android:id="@+id/Del"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
